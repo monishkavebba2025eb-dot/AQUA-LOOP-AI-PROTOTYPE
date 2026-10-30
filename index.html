@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Aqua-Loop-AI | Water Intelligence Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="drop">💧</span><div><h1>Aqua-Loop-AI</h1><p>Water intelligence for data centres</p></div></div>
+  <span class="tag">DEMO • SIMULATED DATA</span>
+</header>
+<main>
+  <section class="intro"><div><p class="eyebrow">SUSTAINABLE DIGITAL INFRASTRUCTURE</p><h2>Make every drop count.</h2><p>Monitor cooling-water use, spot unusual consumption, and explore opportunities to reuse water.</p></div><div class="loop">↻<small>MONITOR<br>→ REUSE</small></div></section>
+  <section class="cards">
+    <article class="metric"><p>Water used today</p><strong id="used">1,200 <small>L</small></strong><span>Illustrative daily use</span></article>
+    <article class="metric"><p>Water reused</p><strong id="reused">420 <small>L</small></strong><span>Illustrative recovered water</span></article>
+    <article class="metric"><p>Reuse share</p><strong id="share">35<small>%</small></strong><span>Reused ÷ water used</span></article>
+  </section>
+  <section class="panel">
+    <div class="panel-head"><div><p class="eyebrow">WATER MONITORING</p><h3>Daily water use (sample data)</h3></div><button id="simulate">Simulate high-use alert</button></div>
+    <div class="bars" aria-label="Illustrative daily water use chart">
+      <div><span style="height:54%"></span><small>Mon</small></div><div><span style="height:66%"></span><small>Tue</small></div><div><span style="height:48%"></span><small>Wed</small></div><div><span style="height:72%"></span><small>Thu</small></div><div><span style="height:61%"></span><small>Fri</small></div><div><span style="height:84%"></span><small>Sat</small></div><div><span style="height:58%"></span><small>Sun</small></div>
+    </div>
+    <div id="alert" class="notice"><span>✓</span><div><strong>System status: Normal</strong><p>Sample readings are within the illustrative range.</p></div></div>
+  </section>
+  <section class="panel">
+    <p class="eyebrow">PROPOSED LOOP</p><h3>How Aqua-Loop-AI could work</h3>
+    <div class="steps"><div><b>1</b><strong>Monitor</strong><p>Read flow meters and tank levels.</p></div><div class="arrow">→</div><div><b>2</b><strong>Analyse</strong><p>Compare readings with normal patterns.</p></div><div class="arrow">→</div><div><b>3</b><strong>Recommend</strong><p>Flag unusual use and review reuse options.</p></div></div>
+  </section>
+  <footer>Student concept prototype • All numbers are simulated and do not represent a real data centre.</footer>
+</main>
+<script src="script.js"></script>
+</body></html>
